@@ -2638,7 +2638,7 @@ body .standard_post_item .aurel_post_formats {
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: 400;
-  color: #ffffff;
+  color: #000000;
 }
 .aurel_post_meta .aurel_post_meta_item {
   margin-left: 15px;
@@ -7002,7 +7002,7 @@ blockquote,
 .packery-item-inner a,
 .aurel_widget_pm_proofing_gallery .grid-item-controls a,
 .aurel_cs_copyright {
-  color: #ffffff;
+  color: #000000;
 }
 
 .aurel_footer_widgets .widget_product_categories ul li:before,
