@@ -875,25 +875,25 @@ jQuery(window).on('load', function () {
 	}
 	
 	// Sticky Menu
-	if (aurel_header.hasClass('aurel_sticky_menu_on') && !jQuery('.aurel_site_wrapper').hasClass('fixed_header_footer')) {
-		if (aurel_header.hasClass('aurel_header_solid_style')) {
-			// Add Header Holder
-			aurel_header.after('<div class="aurel_header_holder"></div>');
-			jQuery('.aurel_header_holder').height(aurel_header.height());
-		}
-		if (aurel_window.scrollTop() > 0 && aurel_window.width() > 1024) {
-			aurel_header.addClass('aurel_stick_me');
-		} else {
-			aurel_header.removeClass('aurel_stick_me');
-		}
-		aurel_window.on('scroll', function() {
-			if (aurel_window.scrollTop() > 0 && aurel_window.width() > 1024) {
-				aurel_header.addClass('aurel_stick_me');
-			} else {
-				aurel_header.removeClass('aurel_stick_me');
-			}
-		});
-	}
+	// if (aurel_header.hasClass('aurel_sticky_menu_on') && !jQuery('.aurel_site_wrapper').hasClass('fixed_header_footer')) {
+	// 	if (aurel_header.hasClass('aurel_header_solid_style')) {
+	// 		// Add Header Holder
+	// 		aurel_header.after('<div class="aurel_header_holder"></div>');
+	// 		jQuery('.aurel_header_holder').height(aurel_header.height());
+	// 	}
+	// 	if (aurel_window.scrollTop() > 0 && aurel_window.width() > 1024) {
+	// 		aurel_header.addClass('aurel_stick_me');
+	// 	} else {
+	// 		aurel_header.removeClass('aurel_stick_me');
+	// 	}
+	// 	aurel_window.on('scroll', function() {
+	// 		if (aurel_window.scrollTop() > 0 && aurel_window.width() > 1024) {
+	// 			aurel_header.addClass('aurel_stick_me');
+	// 		} else {
+	// 			aurel_header.removeClass('aurel_stick_me');
+	// 		}
+	// 	});
+	// }
 	
 	// OWL Carousel Activation
 	jQuery(".aurel_owlCarousel").on("initialized.owl.carousel", function(e) {

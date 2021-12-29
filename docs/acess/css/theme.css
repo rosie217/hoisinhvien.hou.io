@@ -1141,10 +1141,13 @@ header.aurel_main_header.aurel_border_off:after {
   display: none;
 }
 header.aurel_main_header .aurel_main_header_wrapper {
+  display: flex;
+  justify-content: center;
   font-size: 0;
   line-height: 0;
   position: relative;
   z-index: 88;
+  box-shadow: 0 1px 4px hsl(0deg 4% 15% / 10%);
 }
 header.aurel_main_header .aurel_header_left_part,
 header.aurel_main_header .aurel_header_middle_part,
@@ -8119,7 +8122,7 @@ body .gm-style .gm-style-mtc div {
     position: absolute;
     left: 0;
     transition: background 400ms, width 400ms, transform 400ms;
-    background: #ffffff;
+    background: #000;
   }
   span.aurel_mmt_icon span.aurel_mmt_line01 {
     top: 3px;
@@ -8197,7 +8200,7 @@ body .gm-style .gm-style-mtc div {
     li.menu-item-has-children
     > a:after {
     display: inline-block;
-    content: "\f105";
+    /* content: "\f105"; */
     font-family: "FontAwesome", sans-serif;
     vertical-align: middle;
     margin-left: 10px;
@@ -8640,6 +8643,7 @@ body .gm-style .gm-style-mtc div {
   }
   .aurel_header_mobile_menu_toggler {
     right: 20px;
+    top: 30px;
   }
   header.aurel_main_header {
     position: relative;
@@ -9063,4 +9067,8 @@ body .gm-style .gm-style-mtc div {
 
 .aurel_image_logo {
   background: #fff;
+}
+
+.aurel_js_bg_image {
+  padding-top: 80px;
 }
