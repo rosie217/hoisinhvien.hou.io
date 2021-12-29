@@ -9066,9 +9066,9 @@ body .gm-style .gm-style-mtc div {
 }
 
 .aurel_image_logo {
-  background: #fff;
+  background-image: url("../images/HSV.png");
 }
 
 .aurel_js_bg_image {
-  padding-top: 80px;
+  padding-top: 60px;
 }
