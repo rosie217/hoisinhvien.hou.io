@@ -5261,6 +5261,7 @@ body .aurel_testimonials_carousel.owl-theme .owl-dots .owl-dot span {
   margin: 0;
   transform: translateY(30%);
   transition: transform 400ms;
+  color: #ffffff;
 }
 .hover_type_gradient_caption a:hover .packery-item-content,
 .hover_type_gradient_caption a:hover .grid-item-content {
