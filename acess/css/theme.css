@@ -1118,7 +1118,7 @@ ul.slick-dots li button:hover {
 
 header.aurel_main_header {
   display: block;
-  background: #171717;
+  background: #ffffff;
   position: relative;
   z-index: 111;
 }
@@ -1330,7 +1330,7 @@ header.aurel_main_header nav.aurel_nav ul.aurel_menu > li > a {
   letter-spacing: 1.8px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
 }
 header.aurel_main_header nav.aurel_nav ul.sub-menu {
   display: block;
@@ -6905,7 +6905,7 @@ header.aurel_main_header
   nav.aurel_mobile_nav
   .current-menu-item
   > a {
-  color: #82a853;
+  color: #000dff;
 }
 
 header.aurel_main_header nav.aurel_nav ul.sub-menu:before,
