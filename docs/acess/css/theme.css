@@ -1585,7 +1585,7 @@ header.aurel_main_header nav.aurel_nav ul.sub-menu > li:hover > ul.sub-menu {
   display: block;
 }
 .aurel_main_wrapper {
-  padding: 73px 0 60px 0;
+  padding: 0px 0 0px 0;
 }
 .aurel_top_padding_no.aurel_main_wrapper {
   padding-top: 0;
