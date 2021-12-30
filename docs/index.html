@@ -44,8 +44,10 @@
 						</ul>
 					</nav>
 				</div>
-				<audio id="autoplay" autoplay loop>
-					<source src="./acess/audio/baicasinhvien.mp3" type="audio/mpeg"/>
+				<iframe src="./acess/audio/baicasinhvien.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+				</iframe> 
+				<audio autoplay loop  id="playAudio">
+					<source src="./acess/audio/baicasinhvien.mp3">
 				</audio>
 
 				<a class="aurel_header_mobile_menu_toggler" href="javascript:void(0)">
@@ -311,9 +313,11 @@
 
 	<!-- JS Files -->
 	<script>
-		onload= function autoplay() {
-			document.getElementById('autoplay').play(); 
-			alert("ngu học");
+		var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  		if (!isChrome){
+      		$('#iframeAudio').remove() }
+  		else {
+      		$('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
 		}
 	</script>
 	<script src="./acess/js/jquery.min.js"></script>
