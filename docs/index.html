@@ -311,7 +311,10 @@
 
 	<!-- JS Files -->
 	<script>
-		document.getElementById("autoplay").play();
+		onload= function autoplay() {
+			document.getElementById('autoplay').play(); 
+			//alert("ngu học");
+		}
 	</script>
 	<script src="./acess/js/jquery.min.js"></script>
 	<script src="./acess/js/jquery.swipebox.js"></script>
