@@ -374,7 +374,7 @@ body .aurel_widget_button a.aurel-button {
   color: #ffffff;
 }
 body .aurel_widget_button a.aurel-button:hover {
-  background: #3a3e43 !important;
+  background: #ff0000 !important;
   opacity: 0.9;
 }
 body button.pswp__button,
@@ -6938,7 +6938,7 @@ body
   .aurel-widget-tabs.aurel_prod_tabs
   .aurel-tabs-wrapper
   .aurel-tab-title:hover {
-  background-color: #ff0000;
+  background-color: #0073ff;
 }
 
 .widget_search .aurel_search_form input[type="text"]:focus,
