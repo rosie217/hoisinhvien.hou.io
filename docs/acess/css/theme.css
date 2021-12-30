@@ -790,7 +790,7 @@ input[type="submit"] {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #ffffff;
-  background: #3a3e43;
+  background: #0073ff;
 }
 
 /* ---------------------------------- */
@@ -6938,7 +6938,7 @@ body
   .aurel-widget-tabs.aurel_prod_tabs
   .aurel-tabs-wrapper
   .aurel-tab-title:hover {
-  background-color: #82a853;
+  background-color: #ff0000;
 }
 
 .widget_search .aurel_search_form input[type="text"]:focus,
