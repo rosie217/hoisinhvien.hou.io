@@ -145,7 +145,7 @@ html {
     color: #3794de; }
   
   a:hover {
-    color: #f03c69; }
+    color: #ff0000; }
   
   h1.title, h1, h2, h3, h4, h5, h6 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -195,7 +195,7 @@ html {
   h4 a, .h4 a,
   h5 a, .h5 a,
   h6 a, .h6 a {
-    color: inherit; }
+     }
   
   p + h2,
   p + h3,

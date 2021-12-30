@@ -1091,14 +1091,14 @@ ul.slick-dots li button:hover {
 .slick-prev,
 .slick-prev:hover {
   right: 40px;
-  background: #ff00ff;
+  background: #fd0000;
   background-size: 20px 19px;
 }
 
 .slick-next,
 .slick-next:hover {
   right: 0;
-  background: #ff00ff;
+  background: #ff0000;
   background-size: 20px 19px;
 }
 
@@ -2637,7 +2637,7 @@ body .standard_post_item .aurel_post_formats {
   text-transform: uppercase;
   margin-left: 21px;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: 400;
