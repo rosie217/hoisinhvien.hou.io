@@ -17,7 +17,7 @@
 </head>
 
 
-<body class="aurel_drag_protection" onload=AudioPlay()>
+<body class="aurel_drag_protection" >
 	<div class="aurel_site_wrapper static_header_footer fadeOnLoad">
 
 		<!-- Header -->
@@ -44,7 +44,7 @@
 						</ul>
 					</nav>
 				</div>
-				<audio id="audio" autoplay="" loop="">
+				<audio  autoplay loop>
 					<source src="./acess/audio/baicasinhvien.mp3" type="audio/mpeg"/>
 				</audio>
 
@@ -310,11 +310,6 @@
 
 
 	<!-- JS Files -->
-	<script>
-		function AudioPlay(){ 
-  			Audio=document.getElementById("audio")
-  			Audio.play() }
-	</script>
 	<script src="./acess/js/jquery.min.js"></script>
 	<script src="./acess/js/jquery.swipebox.js"></script>
 	<script src="./acess/js/jquery.fullscreen.min.js"></script>
